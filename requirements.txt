@@ -1,0 +1,4 @@
+crewai
+pdfplumber
+openai
+python-dotenv
