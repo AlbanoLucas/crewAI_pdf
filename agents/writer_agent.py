@@ -1,5 +1,3 @@
-# Em agents/writer_agent.py
-
 from crewai import Agent
 from langchain_ollama import OllamaLLM
 
