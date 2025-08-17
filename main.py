@@ -1,5 +1,3 @@
-# Em main.py
-
 from crewai import Crew
 from utils.pdf_utils import extrair_texto_pdf 
 from crew import summary_crew 
