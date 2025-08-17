@@ -1,5 +1,3 @@
-# Em agents/debate_agents.py
-
 from crewai import Agent
 from langchain_ollama import OllamaLLM
 
