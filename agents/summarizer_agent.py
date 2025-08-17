@@ -1,8 +1,7 @@
 from crewai import Agent
-# Passo 1: Importe da nova biblioteca que acabamos de instalar
 from langchain_ollama import OllamaLLM
 
-# Passo 2: Adicione o prefixo "ollama/" ao nome do modelo
+
 ollama_llm = OllamaLLM(model="ollama/llama3.1:8b", base_url="http://localhost:11434")
 
 summarizer_agent = Agent(
