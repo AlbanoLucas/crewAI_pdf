@@ -1,5 +1,3 @@
-# Em tasks/summarize_task.py
-
 from crewai import Task
 from agents.summarizer_agent import summarizer_agent
 from openai import OpenAI
